@@ -28,10 +28,10 @@ $(document).ready(function(){
 
         var userDetails = `
                 <l>
-                <li><i class="fa fa-map-marker"></i>$(resp.location)</li>
-                <li><i class="fa fa-envelope-o"></i> $(resp.email)</li>
-                <li><i class="fa fa-link"></i>$(resp.blog)</li>
-                <li><i class="fa fa-clock-o"></i>$(resp.created_at)</li>
+                <li><i class="fa fa-map-marker"></i>${resp.location}</li>
+                <li><i class="fa fa-envelope-o"></i> ${resp.email}</li>
+                <li><i class="fa fa-link"></i>${resp.blog}</li>
+                <li><i class="fa fa-clock-o"></i>${resp.created_at}</li>
                 </l>
                 `;
 
