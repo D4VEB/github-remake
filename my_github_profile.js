@@ -10,7 +10,7 @@ $(document).ready(function(){
             success: successUser,
             error: errorUser,
             beforeSend: function (xhr) {
-                xhr.setRequestHeader('Authorization', 'Token ' + '6c802387702476b472435014159a0257e967c1d9');
+                xhr.setRequestHeader('Authorization', 'Token ' + 'e6efde8fb145b4642eced033f61155775ee447a3');
             }
         });
     }
@@ -47,7 +47,7 @@ $(document).ready(function(){
             success: successRepo,
             error: errorRepo,
             beforeSend: function (xhr) {
-                xhr.setRequestHeader('Authorization', 'Token ' + '6c802387702476b472435014159a0257e967c1d9');
+                xhr.setRequestHeader('Authorization', 'Token ' + 'e6efde8fb145b4642eced033f61155775ee447a3');
             }
                 // headers: {
                     // 'Authorization': 'token  ${token}
