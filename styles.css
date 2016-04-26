@@ -1,7 +1,7 @@
 /* This is the code Mike suggested including in ALL stylesheets*/
 html{
 box-sizing:border-box;
-font-family: Sans-Serif
+    font-family: serif
 }
 *, *:after, *:before{
 box-sizing:inherit;
@@ -23,7 +23,7 @@ h2{
 }
 
 .container {
-  width:1000px;
+  width:auto;
   height:auto;
   margin:auto;
   display:flex;
@@ -64,7 +64,7 @@ h2{
     border-bottom: solid darkgray 1px;
 }
 
-#repositories {
+.repositories {
   width:800px;
   height:auto;
   background:white;
@@ -108,4 +108,6 @@ h5 {
     text-align:center;
 }
 
-
+.myProfile {
+    display: inline-block;
+}
